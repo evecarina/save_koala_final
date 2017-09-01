@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+
+header{
+	position: relative;
+	padding-top: 84px;
+	padding-bottom: 80px;
+}
+
+header nav{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	height: 70px;
+	background-color: #fff;
+}
+
+header nav ul{
+	line-height: 70px;
+	text-align: right;
+	padding-right: 80px;
+}
+h2{
+	font-size: 1.5em;
+}
+nav ul li a {
+	text-transform: uppercase;
+	color: white;
+	width: 20%;
+}
+
+.lista-menu{
+	text-align: right;
+}
+
+header nav h1{
+	margin: 0px;
+	margin-left: 30px;
+	line-height: 70px;
+}
+
+header .action img{
+	width: 80px;
+	margin: 15px 0px;
+}
+
+header .action h1{
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.action .btn{
+	margin-top: 15px;
+	text-transform: uppercase;
+}
+
+.servicio{
+	padding: 0px 30px;
+}
+
+.servicio h3{
+	text-transform: uppercase;
+	font-size: 1.2em;
+	letter-spacing: 2px;
+}
+
+.servicio i{
+	font-size: 6em;
+	margin-bottom: 15px;
+}
+.action{
+	margin: 50px;
+}
+
+
+
+/*Section Bienvenida*/
+
+ #bienvenida{
+ 	padding: 30px;
+ 	background-image: url(../img/portada.jpg);
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	color: white;
+ 	background-position: center;
+ 	height: 600px;
+ }
+
+.container-bienvenida{
+	width: 50%;
+	margin-top: 80px;
+	margin-left: 30px;
+}
+
+span{
+	color: #41521F;
+	cursor: pointer;
+	list-style: none;
+	font-weight: bolder;
+
+}
+#dos div {
+	padding: 20px;
+
+}
+
+h3, h1{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #41521F;
+	font-weight: bolder;
+}
+h5{
+	font-weight: bolder;
+}
+
+/*Seccion tres*/
+ #tres-un{
+	background: #A89F68;
+	padding: 50px;
+}
+
+.borde-img{
+	border: 5px solid white;
+}
+
+/*Seccion cuatro*/
+#cuatro{
+	background-image: url(../img/all.jpg);
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	color: white;
+ 	background-position: center;
+ 	height: 600px;
+ 	padding: 60px;
+}
+
+/**/
+.num {
+	color: white;
+}
+
+.siete .list-inline{
+	text-align: center;
+}
+
+.num{
+	font-size: 70px;
+	font-weight: bolder;
+}
+
+.line{
+	padding: 15px;
+	border-bottom: 1px solid white;
+	width: 70%;
+}
+
+.seis{
+	color: #A89F68;
+	padding: 50px;
+}
+
+.siete{
+	background: #A89F68;
+	padding: 50px;
+}
+
+
+footer{
+	background: #f49b67;
+	color: white;
+	padding: 50px;
+}
+
+
+/*
+wood brown: A89F68;
+army green: 41521F;
+*/
+
+
+
+#container1{
+	width: 30%;
+}
+#container1 h1{
+	color: #de9830;
+}
+#dos{
+	margin-top: 6.2%;
+}
